@@ -5529,6 +5529,31 @@ button.bg-dark:focus {
 .d-table {
   display: table !important; }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .d-table-row {
   display: table-row !important; }
 
@@ -8375,7 +8400,7 @@ h1, h2, h3, h4, h5,
     width: 40px;
     height: 40px;
     content: '';
-    background: #3e64ff;
+    background: #ffd400;
     z-index: -1;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -8400,9 +8425,9 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .1;
+    opacity: .2;/*배경색 투명도*/
     width: 50%;
-    background: #3e64ff; }
+    background: #ffe93e; }/*애니메이션 화면 왼쪽 배경색*/
   .hero-wrap .text {
     width: 100%; }
 
@@ -8410,7 +8435,7 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 800;
-  color: #3e64ff;
+  color: #ffd400;
   letter-spacing: 4px; }
 
 .slider-text h1 {
@@ -8423,7 +8448,7 @@ h1, h2, h3, h4, h5,
 .slider-text h2 {
   font-weight: 800; }
   .slider-text h2 span {
-    color: #3e64ff;
+    color: #ffd400;
     text-decoration: underline; }
 
 .slider-text p {
@@ -8481,7 +8506,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    background: #edf0ff;
+    background: #fffbd8;
     z-index: -1;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -8500,7 +8525,7 @@ h1, h2, h3, h4, h5,
   -webkit-animation: 1.6s ease infinite wheel-up-down;
   -moz-animation: 1.6s ease infinite wheel-up-down;
   animation: 1.6s ease infinite wheel-up-down;
-  color: #3e64ff;
+  color: #ffd400;
   font-size: 30px; }
 
 @-webkit-keyframes wheel-up-down {
