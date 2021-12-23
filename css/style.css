@@ -991,7 +991,7 @@ pre {
   .offset-md-0 {
     margin-left: 0; }
   .offset-md-1 {
-    margi#3e64ffn-left: 8.33333%; }
+    margin-left: #3e64ff 8.33333%; }
   .offset-md-2 {
     margin-left: 16.66667%; }
   .offset-md-3 {
@@ -1011,7 +1011,7 @@ pre {
   .offset-md-10 {
     margin-left: 83.33333%; }
   .offset-md-11 {
-    margin-left: 91.66667%; } }
+    margin-left: 91.66667%; } 
 
 @media (min-width: 992px) {
   .col-lg {
@@ -9697,3 +9697,4 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+  }
