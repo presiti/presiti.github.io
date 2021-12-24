@@ -1,0 +1,70 @@
+$black: #4d4d4d;
+$white: #ffffff;
+$cream: #efeeeb;
+$grey: #dad8d2;
+$primary: #00b7c6;
+$font:'Lato, sans-serif';
+$display:$font;
+$text:$font;
+
+html {
+     box-sizing: border-box;
+    font-family: $font;
+}
+*,
+*:before,
+*:after {
+     box-sizing: inherit;
+}
+
+html {
+     width: 100%;
+     height: 100%;
+     font-size: 62.5%;
+     font-family: 'Lato', sans-serif;
+     color: $black;
+}
+
+body {
+     width: 100%;
+     height: 100%;
+     font-size: 1.6em;
+}
+
+.wrapper {
+    font-size: 1.6rem;
+    background: $grey;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+// Hide only visually, but have it available for screenreaders
+.visuallyhidden {
+  border:0;
+  clip:rect(0 0 0 0);
+  height:1px;
+  margin:-1px;
+  overflow:hidden;
+  padding:0;
+  position:absolute;
+  width:1px;
+}
+
+// Clearfix
+// ['@extend'-able version for dealing with pre-generated markup]
+%cf:before,
+%cf:after{
+  content:' ';
+  display:table;
+}
+%cf:after{clear:both;}
+// For IE 6/7 only – Include this rule to trigger hasLayout and contain floats.
+%cf{zoom:1;}
+
+.clearfix{
+  @extend %cf;
+}
