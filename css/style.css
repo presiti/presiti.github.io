@@ -21,7 +21,7 @@ text-align: center;
 /* Essential CSS - Makes the effect work */
 
 body {
-background-color: #3498db;
+background-color: #ffd400;
 }
 
 .bubbles {
@@ -36,8 +36,16 @@ margin: 1em 0 0;
 font-family: 'Luckiest Guy', cursive;
 color: #fff;
 z-index: 2;
-font-size: 2em;
+font-size: 5em;
+transition: .3s;
 }
+
+.bubbles h1:hover{
+    font-size: 5.2em;
+    color: #ff7b00;
+}
+
+a{text-decoration: none;}
 
 .individual-bubble {
 position: absolute;
