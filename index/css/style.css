@@ -5448,7 +5448,11 @@ button.bg-dark:focus {
 .border-left-0 {
   border-left: 0 !important; }
 
-.border-primary {
+.border-primary1 {
+  border-color: #5680a7 !important; }
+.border-primary2 {
+  border-color: #ff8700 !important; }
+.border-primary3 {
   border-color: #007bff !important; }
 
 .border-secondary {
